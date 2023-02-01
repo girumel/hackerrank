@@ -1,0 +1,5 @@
+e = int(input())
+e_set = set(map(int, input().split()))
+f = int(input())
+f_set = set(map(int, input().split()))
+print(len(e_set ^ f_set))
